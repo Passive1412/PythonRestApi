@@ -67,4 +67,4 @@ def get_item_in_store(name):
     
 
 
-app.run(port=5000)
+app.run(host='0.0.0.0', port=5000)
